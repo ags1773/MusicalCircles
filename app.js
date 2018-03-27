@@ -8,6 +8,6 @@ app.get('/', function(req,res){
     res.render('musicalCircles');
 });
 
-app.listen(3001, function(){
-  console.log("Server started!");
+app.listen(4200, function(){
+  console.log("Server started! Browse app on localhost:4200");
 });
