@@ -194,10 +194,7 @@
 		}
 
 		function randomPt(){
-			var coordinates = [0,0];
-			coordinates[0] = Math.floor(Math.random() * (view.size.width));
-			coordinates[1] = Math.floor(Math.random() * (view.size.height));
-			return coordinates[0] + ',' + coordinates[1];
+			return Math.floor(Math.random() * (view.size.width)) + ',' + Math.floor(Math.random() * (view.size.height));
 		}
   </script>
 </body>
